@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD7D130E21C4CFC30074DCD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D130D21C4CFC30074DCD1 /* AppDelegate.m */; };
+		CD7D131121C4CFC30074DCD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D131021C4CFC30074DCD1 /* ViewController.m */; };
+		CD7D131321C4CFC70074DCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7D131221C4CFC70074DCD1 /* Assets.xcassets */; };
+		CD7D131621C4CFC70074DCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7D131421C4CFC70074DCD1 /* Main.storyboard */; };
+		CD7D131921C4CFC70074DCD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D131821C4CFC70074DCD1 /* main.m */; };
+		CD7D132421C4CFC80074DCD1 /* OpenGL_Textrue002___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D132321C4CFC80074DCD1 /* OpenGL_Textrue002___Tests.m */; };
+		CD7D132F21C4CFC80074DCD1 /* OpenGL_Textrue002___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D132E21C4CFC80074DCD1 /* OpenGL_Textrue002___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7D132021C4CFC70074DCD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7D130121C4CFC30074DCD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7D130821C4CFC30074DCD1;
+			remoteInfo = "OpenGL-Textrue002-隧道";
+		};
+		CD7D132B21C4CFC80074DCD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7D130121C4CFC30074DCD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7D130821C4CFC30074DCD1;
+			remoteInfo = "OpenGL-Textrue002-隧道";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD7D130921C4CFC30074DCD1 /* OpenGL-Textrue002-隧道.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-Textrue002-隧道.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D130C21C4CFC30074DCD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD7D130D21C4CFC30074DCD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD7D130F21C4CFC30074DCD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD7D131021C4CFC30074DCD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD7D131221C4CFC70074DCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7D131521C4CFC70074DCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7D131721C4CFC70074DCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7D131821C4CFC70074DCD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD7D131A21C4CFC70074DCD1 /* OpenGL_Textrue002___.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenGL_Textrue002___.entitlements"; sourceTree = "<group>"; };
+		CD7D131F21C4CFC70074DCD1 /* OpenGL-Textrue002-隧道Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-Textrue002-隧道Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D132321C4CFC80074DCD1 /* OpenGL_Textrue002___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL_Textrue002___Tests.m"; sourceTree = "<group>"; };
+		CD7D132521C4CFC80074DCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7D132A21C4CFC80074DCD1 /* OpenGL-Textrue002-隧道UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-Textrue002-隧道UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D132E21C4CFC80074DCD1 /* OpenGL_Textrue002___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL_Textrue002___UITests.m"; sourceTree = "<group>"; };
+		CD7D133021C4CFC80074DCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7D130621C4CFC30074DCD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D131C21C4CFC70074DCD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D132721C4CFC80074DCD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7D130021C4CFC30074DCD1 = {
+			isa = PBXGroup;
+			children = (
+				CD7D130B21C4CFC30074DCD1 /* OpenGL-Textrue002-隧道 */,
+				CD7D132221C4CFC70074DCD1 /* OpenGL-Textrue002-隧道Tests */,
+				CD7D132D21C4CFC80074DCD1 /* OpenGL-Textrue002-隧道UITests */,
+				CD7D130A21C4CFC30074DCD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7D130A21C4CFC30074DCD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D130921C4CFC30074DCD1 /* OpenGL-Textrue002-隧道.app */,
+				CD7D131F21C4CFC70074DCD1 /* OpenGL-Textrue002-隧道Tests.xctest */,
+				CD7D132A21C4CFC80074DCD1 /* OpenGL-Textrue002-隧道UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7D130B21C4CFC30074DCD1 /* OpenGL-Textrue002-隧道 */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D130C21C4CFC30074DCD1 /* AppDelegate.h */,
+				CD7D130D21C4CFC30074DCD1 /* AppDelegate.m */,
+				CD7D130F21C4CFC30074DCD1 /* ViewController.h */,
+				CD7D131021C4CFC30074DCD1 /* ViewController.m */,
+				CD7D131221C4CFC70074DCD1 /* Assets.xcassets */,
+				CD7D131421C4CFC70074DCD1 /* Main.storyboard */,
+				CD7D131721C4CFC70074DCD1 /* Info.plist */,
+				CD7D131821C4CFC70074DCD1 /* main.m */,
+				CD7D131A21C4CFC70074DCD1 /* OpenGL_Textrue002___.entitlements */,
+			);
+			path = "OpenGL-Textrue002-隧道";
+			sourceTree = "<group>";
+		};
+		CD7D132221C4CFC70074DCD1 /* OpenGL-Textrue002-隧道Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D132321C4CFC80074DCD1 /* OpenGL_Textrue002___Tests.m */,
+				CD7D132521C4CFC80074DCD1 /* Info.plist */,
+			);
+			path = "OpenGL-Textrue002-隧道Tests";
+			sourceTree = "<group>";
+		};
+		CD7D132D21C4CFC80074DCD1 /* OpenGL-Textrue002-隧道UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D132E21C4CFC80074DCD1 /* OpenGL_Textrue002___UITests.m */,
+				CD7D133021C4CFC80074DCD1 /* Info.plist */,
+			);
+			path = "OpenGL-Textrue002-隧道UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7D130821C4CFC30074DCD1 /* OpenGL-Textrue002-隧道 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D133321C4CFC80074DCD1 /* Build configuration list for PBXNativeTarget "OpenGL-Textrue002-隧道" */;
+			buildPhases = (
+				CD7D130521C4CFC30074DCD1 /* Sources */,
+				CD7D130621C4CFC30074DCD1 /* Frameworks */,
+				CD7D130721C4CFC30074DCD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL-Textrue002-隧道";
+			productName = "OpenGL-Textrue002-隧道";
+			productReference = CD7D130921C4CFC30074DCD1 /* OpenGL-Textrue002-隧道.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7D131E21C4CFC70074DCD1 /* OpenGL-Textrue002-隧道Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D133621C4CFC80074DCD1 /* Build configuration list for PBXNativeTarget "OpenGL-Textrue002-隧道Tests" */;
+			buildPhases = (
+				CD7D131B21C4CFC70074DCD1 /* Sources */,
+				CD7D131C21C4CFC70074DCD1 /* Frameworks */,
+				CD7D131D21C4CFC70074DCD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7D132121C4CFC70074DCD1 /* PBXTargetDependency */,
+			);
+			name = "OpenGL-Textrue002-隧道Tests";
+			productName = "OpenGL-Textrue002-隧道Tests";
+			productReference = CD7D131F21C4CFC70074DCD1 /* OpenGL-Textrue002-隧道Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD7D132921C4CFC80074DCD1 /* OpenGL-Textrue002-隧道UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D133921C4CFC80074DCD1 /* Build configuration list for PBXNativeTarget "OpenGL-Textrue002-隧道UITests" */;
+			buildPhases = (
+				CD7D132621C4CFC80074DCD1 /* Sources */,
+				CD7D132721C4CFC80074DCD1 /* Frameworks */,
+				CD7D132821C4CFC80074DCD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7D132C21C4CFC80074DCD1 /* PBXTargetDependency */,
+			);
+			name = "OpenGL-Textrue002-隧道UITests";
+			productName = "OpenGL-Textrue002-隧道UITests";
+			productReference = CD7D132A21C4CFC80074DCD1 /* OpenGL-Textrue002-隧道UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7D130121C4CFC30074DCD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lxj;
+				TargetAttributes = {
+					CD7D130821C4CFC30074DCD1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CD7D131E21C4CFC70074DCD1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD7D130821C4CFC30074DCD1;
+					};
+					CD7D132921C4CFC80074DCD1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD7D130821C4CFC30074DCD1;
+					};
+				};
+			};
+			buildConfigurationList = CD7D130421C4CFC30074DCD1 /* Build configuration list for PBXProject "OpenGL-Textrue002-隧道" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7D130021C4CFC30074DCD1;
+			productRefGroup = CD7D130A21C4CFC30074DCD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7D130821C4CFC30074DCD1 /* OpenGL-Textrue002-隧道 */,
+				CD7D131E21C4CFC70074DCD1 /* OpenGL-Textrue002-隧道Tests */,
+				CD7D132921C4CFC80074DCD1 /* OpenGL-Textrue002-隧道UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7D130721C4CFC30074DCD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D131321C4CFC70074DCD1 /* Assets.xcassets in Resources */,
+				CD7D131621C4CFC70074DCD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D131D21C4CFC70074DCD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D132821C4CFC80074DCD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7D130521C4CFC30074DCD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D131121C4CFC30074DCD1 /* ViewController.m in Sources */,
+				CD7D131921C4CFC70074DCD1 /* main.m in Sources */,
+				CD7D130E21C4CFC30074DCD1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D131B21C4CFC70074DCD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D132421C4CFC80074DCD1 /* OpenGL_Textrue002___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D132621C4CFC80074DCD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D132F21C4CFC80074DCD1 /* OpenGL_Textrue002___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7D132121C4CFC70074DCD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7D130821C4CFC30074DCD1 /* OpenGL-Textrue002-隧道 */;
+			targetProxy = CD7D132021C4CFC70074DCD1 /* PBXContainerItemProxy */;
+		};
+		CD7D132C21C4CFC80074DCD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7D130821C4CFC30074DCD1 /* OpenGL-Textrue002-隧道 */;
+			targetProxy = CD7D132B21C4CFC80074DCD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7D131421C4CFC70074DCD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7D131521C4CFC70074DCD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7D133121C4CFC80074DCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD7D133221C4CFC80074DCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD7D133421C4CFC80074DCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL-Textrue002-隧道/OpenGL_Textrue002___.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Textrue002-隧道/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-Textrue002---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD7D133521C4CFC80074DCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL-Textrue002-隧道/OpenGL_Textrue002___.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Textrue002-隧道/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-Textrue002---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD7D133721C4CFC80074DCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Textrue002-隧道Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-Textrue002---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-Textrue002-隧道.app/Contents/MacOS/OpenGL-Textrue002-隧道";
+			};
+			name = Debug;
+		};
+		CD7D133821C4CFC80074DCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Textrue002-隧道Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-Textrue002---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-Textrue002-隧道.app/Contents/MacOS/OpenGL-Textrue002-隧道";
+			};
+			name = Release;
+		};
+		CD7D133A21C4CFC80074DCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Textrue002-隧道UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-Textrue002---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL-Textrue002-隧道";
+			};
+			name = Debug;
+		};
+		CD7D133B21C4CFC80074DCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Textrue002-隧道UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-Textrue002---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL-Textrue002-隧道";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7D130421C4CFC30074DCD1 /* Build configuration list for PBXProject "OpenGL-Textrue002-隧道" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D133121C4CFC80074DCD1 /* Debug */,
+				CD7D133221C4CFC80074DCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D133321C4CFC80074DCD1 /* Build configuration list for PBXNativeTarget "OpenGL-Textrue002-隧道" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D133421C4CFC80074DCD1 /* Debug */,
+				CD7D133521C4CFC80074DCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D133621C4CFC80074DCD1 /* Build configuration list for PBXNativeTarget "OpenGL-Textrue002-隧道Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D133721C4CFC80074DCD1 /* Debug */,
+				CD7D133821C4CFC80074DCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D133921C4CFC80074DCD1 /* Build configuration list for PBXNativeTarget "OpenGL-Textrue002-隧道UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D133A21C4CFC80074DCD1 /* Debug */,
+				CD7D133B21C4CFC80074DCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7D130121C4CFC30074DCD1 /* Project object */;
+}
