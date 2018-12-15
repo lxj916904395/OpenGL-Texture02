@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD7D130E21C4CFC30074DCD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D130D21C4CFC30074DCD1 /* AppDelegate.m */; };
-		CD7D131121C4CFC30074DCD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D131021C4CFC30074DCD1 /* ViewController.m */; };
 		CD7D131321C4CFC70074DCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7D131221C4CFC70074DCD1 /* Assets.xcassets */; };
 		CD7D131621C4CFC70074DCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7D131421C4CFC70074DCD1 /* Main.storyboard */; };
-		CD7D131921C4CFC70074DCD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D131821C4CFC70074DCD1 /* main.m */; };
+		CD7D131921C4CFC70074DCD1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD7D131821C4CFC70074DCD1 /* main.cpp */; };
 		CD7D132421C4CFC80074DCD1 /* OpenGL_Textrue002___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D132321C4CFC80074DCD1 /* OpenGL_Textrue002___Tests.m */; };
 		CD7D132F21C4CFC80074DCD1 /* OpenGL_Textrue002___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D132E21C4CFC80074DCD1 /* OpenGL_Textrue002___UITests.m */; };
+		CD7D134E21C4CFF10074DCD1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7D134D21C4CFF10074DCD1 /* OpenGL.framework */; };
+		CD7D135021C4CFF80074DCD1 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7D134F21C4CFF80074DCD1 /* libGLTools.a */; };
+		CD7D135221C4CFFE0074DCD1 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7D135121C4CFFE0074DCD1 /* GLUT.framework */; };
+		CD7D135821C4D0480074DCD1 /* stone.tga in Resources */ = {isa = PBXBuildFile; fileRef = CD7D135421C4D0480074DCD1 /* stone.tga */; };
+		CD7D135921C4D0480074DCD1 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = CD7D135521C4D0480074DCD1 /* floor.tga */; };
+		CD7D135A21C4D0480074DCD1 /* ceiling.tga in Resources */ = {isa = PBXBuildFile; fileRef = CD7D135621C4D0480074DCD1 /* ceiling.tga */; };
+		CD7D135B21C4D0480074DCD1 /* brick.tga in Resources */ = {isa = PBXBuildFile; fileRef = CD7D135721C4D0480074DCD1 /* brick.tga */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +40,10 @@
 
 /* Begin PBXFileReference section */
 		CD7D130921C4CFC30074DCD1 /* OpenGL-Textrue002-隧道.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-Textrue002-隧道.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7D130C21C4CFC30074DCD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CD7D130D21C4CFC30074DCD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD7D130F21C4CFC30074DCD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD7D131021C4CFC30074DCD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD7D131221C4CFC70074DCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD7D131521C4CFC70074DCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD7D131721C4CFC70074DCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD7D131821C4CFC70074DCD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD7D131821C4CFC70074DCD1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CD7D131A21C4CFC70074DCD1 /* OpenGL_Textrue002___.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenGL_Textrue002___.entitlements"; sourceTree = "<group>"; };
 		CD7D131F21C4CFC70074DCD1 /* OpenGL-Textrue002-隧道Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-Textrue002-隧道Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7D132321C4CFC80074DCD1 /* OpenGL_Textrue002___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL_Textrue002___Tests.m"; sourceTree = "<group>"; };
@@ -50,6 +51,27 @@
 		CD7D132A21C4CFC80074DCD1 /* OpenGL-Textrue002-隧道UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-Textrue002-隧道UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7D132E21C4CFC80074DCD1 /* OpenGL_Textrue002___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL_Textrue002___UITests.m"; sourceTree = "<group>"; };
 		CD7D133021C4CFC80074DCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7D133D21C4CFDA0074DCD1 /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
+		CD7D133E21C4CFDA0074DCD1 /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		CD7D133F21C4CFDA0074DCD1 /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
+		CD7D134021C4CFDA0074DCD1 /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
+		CD7D134121C4CFDA0074DCD1 /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
+		CD7D134221C4CFDA0074DCD1 /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
+		CD7D134321C4CFDA0074DCD1 /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
+		CD7D134421C4CFDA0074DCD1 /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
+		CD7D134521C4CFDA0074DCD1 /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		CD7D134621C4CFDA0074DCD1 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		CD7D134821C4CFDA0074DCD1 /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		CD7D134921C4CFDA0074DCD1 /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		CD7D134A21C4CFDA0074DCD1 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		CD7D134B21C4CFDA0074DCD1 /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		CD7D134D21C4CFF10074DCD1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CD7D134F21C4CFF80074DCD1 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		CD7D135121C4CFFE0074DCD1 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		CD7D135421C4D0480074DCD1 /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
+		CD7D135521C4D0480074DCD1 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = floor.tga; sourceTree = "<group>"; };
+		CD7D135621C4D0480074DCD1 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceiling.tga; sourceTree = "<group>"; };
+		CD7D135721C4D0480074DCD1 /* brick.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = brick.tga; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7D135221C4CFFE0074DCD1 /* GLUT.framework in Frameworks */,
+				CD7D135021C4CFF80074DCD1 /* libGLTools.a in Frameworks */,
+				CD7D134E21C4CFF10074DCD1 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +109,7 @@
 				CD7D132221C4CFC70074DCD1 /* OpenGL-Textrue002-隧道Tests */,
 				CD7D132D21C4CFC80074DCD1 /* OpenGL-Textrue002-隧道UITests */,
 				CD7D130A21C4CFC30074DCD1 /* Products */,
+				CD7D134C21C4CFF10074DCD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,14 +126,12 @@
 		CD7D130B21C4CFC30074DCD1 /* OpenGL-Textrue002-隧道 */ = {
 			isa = PBXGroup;
 			children = (
-				CD7D130C21C4CFC30074DCD1 /* AppDelegate.h */,
-				CD7D130D21C4CFC30074DCD1 /* AppDelegate.m */,
-				CD7D130F21C4CFC30074DCD1 /* ViewController.h */,
-				CD7D131021C4CFC30074DCD1 /* ViewController.m */,
+				CD7D135321C4D0180074DCD1 /* Supporting Files */,
+				CD7D133C21C4CFDA0074DCD1 /* include */,
 				CD7D131221C4CFC70074DCD1 /* Assets.xcassets */,
 				CD7D131421C4CFC70074DCD1 /* Main.storyboard */,
 				CD7D131721C4CFC70074DCD1 /* Info.plist */,
-				CD7D131821C4CFC70074DCD1 /* main.m */,
+				CD7D131821C4CFC70074DCD1 /* main.cpp */,
 				CD7D131A21C4CFC70074DCD1 /* OpenGL_Textrue002___.entitlements */,
 			);
 			path = "OpenGL-Textrue002-隧道";
@@ -129,6 +153,56 @@
 				CD7D133021C4CFC80074DCD1 /* Info.plist */,
 			);
 			path = "OpenGL-Textrue002-隧道UITests";
+			sourceTree = "<group>";
+		};
+		CD7D133C21C4CFDA0074DCD1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D133D21C4CFDA0074DCD1 /* GLBatchBase.h */,
+				CD7D133E21C4CFDA0074DCD1 /* math3d.h */,
+				CD7D133F21C4CFDA0074DCD1 /* GLTriangleBatch.h */,
+				CD7D134021C4CFDA0074DCD1 /* GLBatch.h */,
+				CD7D134121C4CFDA0074DCD1 /* GLMatrixStack.h */,
+				CD7D134221C4CFDA0074DCD1 /* GLFrame.h */,
+				CD7D134321C4CFDA0074DCD1 /* GLFrustum.h */,
+				CD7D134421C4CFDA0074DCD1 /* GLGeometryTransform.h */,
+				CD7D134521C4CFDA0074DCD1 /* GLShaderManager.h */,
+				CD7D134621C4CFDA0074DCD1 /* StopWatch.h */,
+				CD7D134721C4CFDA0074DCD1 /* GL */,
+				CD7D134B21C4CFDA0074DCD1 /* GLTools.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		CD7D134721C4CFDA0074DCD1 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D134821C4CFDA0074DCD1 /* glxew.h */,
+				CD7D134921C4CFDA0074DCD1 /* wglew.h */,
+				CD7D134A21C4CFDA0074DCD1 /* glew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		CD7D134C21C4CFF10074DCD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D135121C4CFFE0074DCD1 /* GLUT.framework */,
+				CD7D134F21C4CFF80074DCD1 /* libGLTools.a */,
+				CD7D134D21C4CFF10074DCD1 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD7D135321C4D0180074DCD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D135721C4D0480074DCD1 /* brick.tga */,
+				CD7D135621C4D0480074DCD1 /* ceiling.tga */,
+				CD7D135521C4D0480074DCD1 /* floor.tga */,
+				CD7D135421C4D0480074DCD1 /* stone.tga */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7D131321C4CFC70074DCD1 /* Assets.xcassets in Resources */,
+				CD7D135921C4D0480074DCD1 /* floor.tga in Resources */,
+				CD7D135B21C4D0480074DCD1 /* brick.tga in Resources */,
+				CD7D135821C4D0480074DCD1 /* stone.tga in Resources */,
+				CD7D135A21C4D0480074DCD1 /* ceiling.tga in Resources */,
 				CD7D131621C4CFC70074DCD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7D131121C4CFC30074DCD1 /* ViewController.m in Sources */,
-				CD7D131921C4CFC70074DCD1 /* main.m in Sources */,
-				CD7D130E21C4CFC30074DCD1 /* AppDelegate.m in Sources */,
+				CD7D131921C4CFC70074DCD1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +508,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-Textrue002---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -448,6 +528,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-Textrue002---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
